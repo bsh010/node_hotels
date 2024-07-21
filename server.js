@@ -1,18 +1,3 @@
-/*
-const jsonstring = '{"name":"bharat","age":25,"city":"belgaum"}';
-const jsonobject = JSON.parse(jsonstring);
-console.log(typeof jsonobject);
-
-
-const objectToconvert = {
-   name:"bharat",
-   age:25,
-   city:"belgaum"
-}
-const jsonstringified = JSON.stringify(objectToconvert);
-console.log(typeof jsonstringified); 
-*/
-
 const express = require('express');
 const app = express();
 const db = require('./db.js');
